@@ -1,1 +1,1 @@
-# ejercicioProgramacion
+Ese archivo abarca todos los ejercicios realizados en el || Semestre del año 2024
