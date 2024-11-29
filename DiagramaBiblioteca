@@ -1,0 +1,25 @@
+                       +--------------+
+                       |   Biblioteca |
+                       +--------------+
+                       | nombre       |
+                       | direccion    |
+                       +--------------+
+                       | +registrarUsuario()   |
+                       | +consultarLibros()    |
+                       +--------------+
+                           |       /|\
+                           |        |
+                           |        |
+                          \|/       |
++--------+      +--------+      +--------+      +--------+      +--------+
+| Libro  |      | Usuario|      | Prestamo|     |Bibliotecario| |Usuarios |
++--------+      +--------+      +--------+      +--------+      +--------+
+| titulo  |     | nombre |      | fechaPrestamo |nombre |      |nombre  |
+| autor   |     | idUsuario|    | fechaDevolucion| idEmpleado| |idUsuario|
+| ISBN    |     | direccion|    |                |          | |direccion|
+| anioPub |     | telefono |    |                |          | |telefono |
+| estado  |     +---------+    +---------+      +----------+ |---------+
++--------+   +---------------------------------------------------------------+
+| +prestar()| 
+| +devolver()|
++------------+

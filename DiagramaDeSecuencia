@@ -1,0 +1,24 @@
+Usuario           Sistema de Biblioteca           Bibliotecario
+   |                        |                           |
+   |  solicitarReserva()    |                           |
+   |----------------------->|                           |
+   |                        | verificarDisponibilidad() |
+   |                        |-------------------------->|
+   |                        | <-------------------------|
+   |  confirmarDisponibilidad()                         |
+   |<-----------------------|                           |
+   |                        |                           |
+   |  enviarSolicitud()     |                           |
+   |----------------------->|                           |
+   |                        | notificarBibliotecario()  |
+   |                        |-------------------------->|
+   |                        |                           |
+   |                        |   confirmarReserva()      |
+   |                        | <-------------------------|
+   |                        |                           |
+   |                        | actualizarEstado()        |
+   |                        |-------------------------->|
+   |                        | <-------------------------|
+   |                        |                           |
+   | notificarUsuario()     |                           |
+   |<-----------------------|                           |
